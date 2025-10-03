@@ -4,7 +4,7 @@ pipeline {
         x = '100'
     }
 	parameters {
-		string(name: "person", defaultValue: "Ekamjeet Singh", description: "Enter username")
+		string(name: "person", defaultValue: "Inderjeet Singh", description: "Enter username")
 	}
     stages {
         stage('Hello') {
